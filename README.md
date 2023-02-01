@@ -1,6 +1,7 @@
 # Lecture6Answers
 1. 
 
+```java
 public class ArrayStack2<E> implements LIFOStack<E> {
 
 	// Implementation of a stack using an array
@@ -50,9 +51,10 @@ public class ArrayStack2<E> implements LIFOStack<E> {
 		dataArray = newArray;
 	}
 }
+```
 
 2.
-
+```java
 public class Calculator {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -71,3 +73,4 @@ public class Calculator {
 		}
 	}
 }
+```
